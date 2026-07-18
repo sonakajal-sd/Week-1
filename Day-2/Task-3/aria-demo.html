@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aria Demo</title>
+</head>
+<body>
+    <a href='#main-content' class='skip-link'>Skip to main content</a> 
+    <header>
+        <h1>Aria-Demo Patterns</h1>
+    </header>
+    <main>
+        <div role="search">
+            <label for="fname">Search :</label>
+            <input type="text" id="fname" name="aria-label" aria-required="true">
+            <button aria-label="Close-menu"> X</button>
+        <div>
+
+        <div role="search">
+
+            <label for="toggle">Toggle: </label>
+            <input id="toggle" name="toggle-button" aria-required="true">
+            <button aria-expanded="false" aria-controls="menu-id">Toggle button</button>
+        </div>
+
+
+        <div role="alert">
+            <label for="noti">Notification: </label>
+            <input id="noti" name="notification bar" aria-required="true"> 
+            <button  aria-live="polite">Notification</button>
+        </div>
+
+       
+    </main>
+    
+</body>
+</html>
