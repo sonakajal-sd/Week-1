@@ -1,0 +1,42 @@
+Day-3 (20/07/2026)
+
+Task-1
+
+Performance: 100
+Accessibilty:100
+Best Practices:100
+SEO:90
+
+Task-2
+
+Performance: 100
+Accessibilty:100
+Best Practices:100
+SEO:90
+
+Task-3
+
+Performance: 100
+Accessibilty:100
+Best Practices:100
+SEO:90
+
+Task-4
+
+Performance: 100
+Accessibilty:100
+Best Practices:100
+SEO:90
+
+Task-5
+
+Performance: 100
+Accessibilty:100
+Best Practices:100
+SEO:90
+
+Things can't be fixed by using HTML:
+ 1.The value from the (HTML input) range Attribute, to show the value between the ranges , needed Javascript.It cannot be fixed with HTML.
+
+
+2.On the Task-5 ,we made an ordered list tat the top of thr visual step indicator. I hope that needs Javascript.

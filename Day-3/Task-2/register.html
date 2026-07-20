@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Register Form
+        </h1>
+    </header>
+    <main>
+        <form action="" method="">
+        <section>
+           
+            <fieldset>
+                <legend>
+                      Personal Details
+                </legend>
+                <p>
+                    <label for="username">Name*:</label>
+                    <input type="text"
+                     id="username" 
+                     aria-label="Enter your username"
+                     name="username"
+                     minlength="15"
+                     maxlength="20"
+                     pattern='[A-Za-z0-9_]{3,20}'
+                     required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email"
+                    id="email"
+                    aria-label="Enter your email"
+                    name="email">
+                </p>
+                <p>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel"
+                    id="phone"
+                    aria-label="Enter your phone number"
+                    name="phone">
+                </p>
+                <p>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date"
+                    id="dob"
+                    aria-label="Date-of-birth"
+                    name="dob">
+                </p>
+                <p>
+                    <label for="time">Time of birth:</label>
+                    <input type="time"
+                    id="time"
+                    aria-label="time-of-birth"
+                    name="time">
+                </p>
+                
+                <p>
+                    <label for="datetime-l">D & T:</label>
+                    <input type="datetime-local"
+                    id="datetime-l"
+                    aria-label="datetime-l"
+                    name="datetime-l">
+                </p>
+                <p>
+                    <label for="month">Month of Passing out:</label>
+                    <input type="month"
+                    id="month"
+                    aria-label="Month-of-passing"
+                    name="month">
+                </p>
+                <p>
+                    <label for="resume">Share your resume:</label>
+                    <input type="file"
+                    id="resume"
+                    aria-label="user-resume"
+                    name="resume">
+                </p>
+                <p>
+                    <p><strong>Skills:</strong></p>
+                    <input id="html"
+                    type="checkbox"
+                    aria-label="HTML"
+                    value="HTML">
+                    <label for="html">HTML</label>
+                </p>
+                <p>
+                    
+                    <input id="css"
+                    type="checkbox"
+                    aria-label="CSS-skill"
+                    value="CSS">
+                    <label for="css">CSS</label>
+                </p>
+                <p>
+                    
+                    <input id="javascript"
+                    type="checkbox"
+                    aria-label="Javascript-skill"
+                    value="javascript">
+                    <label for="javascript">Javascript</label>
+                </p>
+                <p>
+                   
+                    <input id="type"
+                    type="checkbox"
+                    aria-label="TypeScript-skill"
+                    value="type">
+                    <label for="type">TypeScript</label>
+                </p>
+                <p>
+                    
+                    <input id="react"
+                    type="checkbox"
+                    aria-label="ReactJS-skill"
+                    value="reactjs">
+                    <label for="react">ReactJS</label>
+                </p>
+                <p>
+                    
+                    <input id="nodejs"
+                    type="checkbox"
+                    aria-label="NodeJS-skill"
+                    value="nodejs">
+                    <label for="nodejs">NodeJS</label>
+                </p>
+                <p>
+                    <label for="job-role">Job Title</label>
+                    <input list="job-list"
+                    id="job-role"
+                    name="jobrole">
+                    <datalist id="job-list">
+                        <option value="Software-developer">Software-developer</option>
+                        <option value="DevOps">DevOps</option>
+                        <option value="OOPS">OOPS</option>
+                        <option value="UI/UX-Designer">UI/UX-Designer</option>
+                        <option value="Marketing-team">Marketing-team</option>
+                        <option value="Receptionist">Receptionist</option>
+                        <option value="Data Analyst">Data Analyst</option>
+                        <option value="Operationl-Analyst">Operationl-Analyst</option>
+                    </datalist>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Details</legend>
+                <p>
+                    <label for="username" >Username:</label>
+                    <input type="text"
+                    id="username"
+                    aria-label="user-username"
+                    name="username">
+                </p>
+
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password"
+                    id="password"
+                    aria-label="user-password"
+                    name="password">
+
+                    <button type="button" aria-pressed="false">Show/Hide</button>
+                </p>
+
+                <p>
+                    <label id="re-password">Confirm Password:</label>
+                    <input type="password"
+                    id="re-password"
+                    aria-label="user-re-password"
+                    name="re-password">
+                    <button type="button" aria-pressed="false">Show/Hide</button>
+                </p>
+            </fieldset>  
+            
+            <fieldset>
+                <legend >Preferences</legend>
+                <p>
+                   <p><strong>Notification:</strong></p>
+                   <input id="whatsapp"
+                    type="radio"
+                     aria-label="Whatsapp-n" 
+                     name="Notification">
+                     <label for="whatsapp">Whatsapp</label>
+
+                     <input id="instagram"
+                    type="radio"
+                     aria-label="instagram-n" 
+                     name="Notification">
+                     <label for="instagram">Instagram</label>
+
+                     <input id="email"
+                    type="radio"
+                     aria-label="email-n" 
+                     name="Notification">
+                     <label for="email">Email</label>
+
+                     <p><strong>Skill Range:</strong></p>
+                      
+                     <p>
+                         <label for="skill-range">Skill 1-10:</label>
+                         <input type="range"
+                         id="skill-range"
+                         aria-label="skill-r"
+                         name="skill-range"
+                         min="1"
+                         max="10">
+                    </p>
+                     <p><strong>Profile color:</strong></p>
+                    <p>
+                    <label for="color">Select your favourite Color:</label>
+                    <input type="color"
+                    id="color"
+                    aria-label="profile-color"
+                    name="profile-color">
+                    </p>
+
+                </p>
+            </fieldset>
+        </section>
+        
+    </form>
+    </main>
+    
+</body>
+</html>

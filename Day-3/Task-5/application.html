@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body>
+    <header>
+        <h1>Vonnue Innovations</h1>
+        <p>Job application (2026)</p>
+    </header>
+
+    <main>
+        <form action="" method="">
+            <p>
+            <ol>
+                <li>Step-1</li>
+                <li>Step-2</li>
+                <li>Step-3</li>
+            </ol>
+            </p>
+            <fieldset  aria-current="Step-1">
+                <legend>Personal Information</legend>
+                  <p>
+                    <label for="name"> Name:</label>
+                    <input type="text"
+                    id="name"
+                    aria-label="candidate-name">
+                  </p>
+                  <p>
+                    <label for="email">Email:</label>
+                    <input type="email"
+                    id="email"
+                    aria-label="candidate-email">
+                  </p>
+                  <p>
+                    <label for="phone-no"> Phone Number:</label>
+                    <input type="tel" 
+                    id="phone-no"
+                    aria-label="phone number candidate">
+                  </p>
+                  <p>
+                    <label for="url">LinkedIn</label>
+                    <input type="url"
+                    id="url"
+                    aria-label="candidate LinkedIn">
+                  </p>
+            </fieldset>
+           
+            <fieldset>
+                <legend>Work Experince</legend>
+                <p>
+                    <label for="c-role">Current Role:</label>
+                    <input type="text"
+                    id="c-role" 
+                    aria-label="current Role">
+                </p>
+                <p>
+                    <label for="current-cmpny">Current Company:</label>
+                    <input type="text"
+                    id="current-cmpny" 
+                    aria-label="current Company">
+                </p>
+                <p>
+                    <label for="y-exp">Years of experience:</label>
+                    <input type="number"
+                    id="y-exp"
+                    aria-label="Years of Experience">
+                </p>
+                <p>
+                    <label for="achievements" >Key Achievements:</label> <br>
+                    <textarea name="key-achivements"
+                     id="achievements"
+                      placeholder="Maximum 500 Characters"
+                      cols="40"
+                      rows="10"></textarea>
+                </p>
+                
+            </fieldset>
+           
+            <fieldset  >
+                <legend>Documents</legend>
+                <p>
+                    <label for="cv-upload">CV:</label>
+                    <input type="file"
+                    id="cv-upload"
+                    accept=".pdf,.docx,">
+                </p>
+                <p>
+                    <label for="cover-letter">Cover letter:</label>
+                    <input type="file"
+                    id="cover-letter"
+                    aria-label="Cover Letter">
+                </p>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+        
+    </main>
+    
+</body>
+</html>
