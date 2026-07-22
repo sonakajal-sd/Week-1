@@ -1,50 +1,169 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Picture Tag Practice</title>
- 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
 </head>
 <body>
-  
 
-  <picture>
-    <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
+<header>
+    <h1>Srcset & Picture Element</h1>
+</header>
 
-      <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
+<main>
 
-     <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
+<section>
 
-   <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
-
-    <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
-
-      <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
-
-      <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
-
-      <source media="(width < 800px)" srcset="https://picsum.photos/400/300?grayscale">
-    <source media="(width >= 800px)" srcset="https://picsum.photos/100/100?grayscale">
-    <img src="https://picsum.photos/400/300?grayscale" alt="Changing landscape based on screen size">
-
-  </picture>
+    <img
+    src="https://picsum.photos/seed/image1/1600/900"
+    srcset="
+    https://picsum.photos/seed/image1/400/225 400w,
+    https://picsum.photos/seed/image1/800/450 800w,
+    https://picsum.photos/seed/image1/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 1">
 
 
+    <img
+    src="https://picsum.photos/seed/image2/1600/900"
+    srcset="
+    https://picsum.photos/seed/image2/400/225 400w,
+    https://picsum.photos/seed/image2/800/450 800w,
+    https://picsum.photos/seed/image2/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 2">
+
+
+    <img
+    src="https://picsum.photos/seed/image3/1600/900"
+    srcset="
+    https://picsum.photos/seed/image3/400/225 400w,
+    https://picsum.photos/seed/image3/800/450 800w,
+    https://picsum.photos/seed/image3/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 3">
+
+
+    <img
+    src="https://picsum.photos/seed/image4/1600/900"
+    srcset="
+    https://picsum.photos/seed/image4/400/225 400w,
+    https://picsum.photos/seed/image4/800/450 800w,
+    https://picsum.photos/seed/image4/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 4">
+
+
+    <img
+    src="https://picsum.photos/seed/image5/1600/900"
+    srcset="
+    https://picsum.photos/seed/image5/400/225 400w,
+    https://picsum.photos/seed/image5/800/450 800w,
+    https://picsum.photos/seed/image5/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 5">
+
+
+    <img
+    src="https://picsum.photos/seed/image6/1600/900"
+    srcset="
+    https://picsum.photos/seed/image6/400/225 400w,
+    https://picsum.photos/seed/image6/800/450 800w,
+    https://picsum.photos/seed/image6/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 6">
+
+
+    <img
+    src="https://picsum.photos/seed/image7/1600/900"
+    srcset="
+    https://picsum.photos/seed/image7/400/225 400w,
+    https://picsum.photos/seed/image7/800/450 800w,
+    https://picsum.photos/seed/image7/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 7">
+
+
+    <img
+    src="https://picsum.photos/seed/image8/1600/900"
+    srcset="
+    https://picsum.photos/seed/image8/400/225 400w,
+    https://picsum.photos/seed/image8/800/450 800w,
+    https://picsum.photos/seed/image8/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 8">
+
+
+    <img
+    src="https://picsum.photos/seed/image9/1600/900"
+    srcset="
+    https://picsum.photos/seed/image9/400/225 400w,
+    https://picsum.photos/seed/image9/800/450 800w,
+    https://picsum.photos/seed/image9/1600/900 1600w"
+    sizes="(max-width:600px) 100vw,
+           (max-width:1200px) 50vw,
+           33vw"
+    loading="lazy"
+    alt="Image 9">
+
+</section>
+<section>
+    <picture>
+        <source
+            media="(min-width: 801px)"
+            srcset="https://picsum.photos/seed/image1/1600/900">
+
+        <source
+            media="(max-width: 800px)"
+            srcset="https://picsum.photos/seed/image2/800/450">
+
+        <img
+            src="https://picsum.photos/seed/image1/1600/900"
+            alt="Responsive Image">
+    </picture>
+
+    <picture>
+        <source
+            media="(min-width: 801px)"
+            srcset="https://picsum.photos/seed/image3/1600/900">
+
+        <source
+            media="(max-width: 800px)"
+            srcset="https://picsum.photos/seed/image4/800/450">
+
+        <img
+            src="https://picsum.photos/seed/image3/1600/900"
+            alt="Responsive Image">
+    </picture>
+</section>
+
+</main>
 
 </body>
 </html>
